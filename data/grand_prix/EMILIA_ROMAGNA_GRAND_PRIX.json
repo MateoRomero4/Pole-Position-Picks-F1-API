@@ -1,0 +1,29 @@
+{
+    "EMILIA_ROMAGNA_GRAND_PRIX": {
+        "Lewis": [1, 2, 13],
+        "Valtteri": [2, 18, 5],
+        "Daniel": [3, 6, 18],
+        "Daniil": [4],
+        "Charles": [5, 4, 6],
+        "Sergio": [6, 11, 2],
+        "Carlos": [7, 5, 20],
+        "Lando": [8, 3, 3],
+        "Kimi": [9, 13],
+        "Antonio": [10, 14],
+        "Nicholas": [11, 20, 16],
+        "Sebastian": [12, 15, 8],
+        "Lance": [13, 8, 10],
+        "Romain": [14],
+        "Alexander": [15, 11],
+        "George": [16, 19, 4],
+        "Max": [17, 1, 1],
+        "Kevin": [18, 9],
+        "Esteban": [19, 9, 14],
+        "Pierre": [20, 7, 12],
+        "Fernando": [10, 19],
+        "Yuki": [12, 7],
+        "Mick": [16, 17],
+        "Nikita": [17],
+        "Guanyu": [15]
+    }
+}

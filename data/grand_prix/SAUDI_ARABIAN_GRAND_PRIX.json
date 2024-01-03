@@ -1,0 +1,28 @@
+{
+    "SAUDI_ARABIAN_GRAND_PRIX": {
+        "Lewis": [1, 10],
+        "Max": [2, 1],
+        "Valtteri": [3, 15],
+        "Esteban": [4, 6],
+        "Daniel": [5, 17],
+        "Pierre": [6, 8],
+        "Charles": [7, 2],
+        "Carlos": [8, 3],
+        "Antonio": [9],
+        "Lando": [10, 7],
+        "Lance": [11, 13],
+        "Nicholas": [12, 18],
+        "Fernando": [13, 16],
+        "Yuki": [14, 19],
+        "Kimi": [15],
+        "Sebastian": [16],
+        "Sergio": [17, 4],
+        "Nikita": [18],
+        "George": [19, 5],
+        "Mick": [20, 20],
+        "Kevin": [9],
+        "Guanyu": [11],
+        "Nico": [12],
+        "Alexander": [14]
+    }
+}

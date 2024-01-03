@@ -1,0 +1,28 @@
+{
+    "PORTUGUESE_GRAND_PRIX": {
+        "Lewis": [1, 1],
+        "Valtteri": [2, 3],
+        "Max": [3, 2],
+        "Charles": [4, 6],
+        "Pierre": [5, 10],
+        "Carlos": [6, 11],
+        "Sergio": [7, 4],
+        "Esteban": [8, 7],
+        "Daniel": [9, 9],
+        "Sebastian": [10, 13],
+        "Kimi": [11, 20],
+        "Alexander": [12],
+        "Lando": [13, 5],
+        "George": [14, 16],
+        "Antonio": [15, 12],
+        "Kevin": [16],
+        "Romain": [17],
+        "Nicholas": [18, 18],
+        "Daniil": [19],
+        "Lance": [20, 14],
+        "Fernando": [8],
+        "Yuki": [15],
+        "Mick": [17],
+        "Nikita": [19]
+    }
+}

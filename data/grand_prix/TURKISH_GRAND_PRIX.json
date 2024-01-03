@@ -1,0 +1,28 @@
+{
+    "TURKISH_GRAND_PRIX": {
+        "Lewis": [1, 5],
+        "Sergio": [2, 3],
+        "Sebastian": [3, 18],
+        "Charles": [4, 4],
+        "Carlos": [5, 8],
+        "Max": [6, 2],
+        "Alexander": [7],
+        "Lando": [8, 7],
+        "Lance": [9, 9],
+        "Daniel": [10, 13],
+        "Esteban": [11, 10],
+        "Daniil": [12],
+        "Pierre": [13, 6],
+        "Valtteri": [14, 1],
+        "Kimi": [15, 12],
+        "George": [16, 15],
+        "Kevin": [17],
+        "Romain": [18],
+        "Nicholas": [19, 17],
+        "Antonio": [20, 11],
+        "Yuki": [14],
+        "Fernando": [16],
+        "Mick": [19],
+        "Nikita": [20]
+    }
+}
