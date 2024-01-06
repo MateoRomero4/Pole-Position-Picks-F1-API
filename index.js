@@ -1,8 +1,11 @@
 const express = require('express');
 const app = express();
 const fs = require('fs');
+var cors = require('cors')
+
 
 app.use(express.json());
+app.use(cors())
 
 const ABU_DHABI_GRAND_PRIX = require('./data/grand_prix/ABU_DHABI_GRAND_PRIX.json');
 const AUSTRALIAN_GRAND_PRIX = require('./data/grand_prix/AUSTRALIAN_GRAND_PRIX.json');
@@ -171,6 +174,5 @@ app.get('/team-color/:team', (req, res) => {
     
 
   
-app.use(cors())
 const port = process.env.PORT ?? 3000;
 app.listen(port, () =>  console.log(`Escuchando en puerto ${port}...`));
