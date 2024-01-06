@@ -48,7 +48,7 @@ const TEAM_COLOR = require('./data/colors/TEAM_COLOR.json');
 const TEAM_LOGOS = {
     'alfa-romeo': './data/logos/alfa-romeo.svg',
     'alphatauri': './data/logos/alphatauri.svg',
-    'alpine': './data/logos/alpine.svg',
+    'alpine-f1-team': './data/logos/alpine.svg',
     'aston-martin': './data/logos/aston-martin.svg',
     'ferrari': './data/logos/ferrari.svg',
     'haas': './data/logos/haas-f1-team.svg',
