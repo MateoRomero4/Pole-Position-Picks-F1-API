@@ -171,6 +171,6 @@ app.get('/team-color/:team', (req, res) => {
     
 
   
-
+app.use(cors())
 const port = process.env.PORT ?? 3000;
 app.listen(port, () =>  console.log(`Escuchando en puerto ${port}...`));
