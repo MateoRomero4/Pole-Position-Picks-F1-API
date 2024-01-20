@@ -154,23 +154,27 @@ app.get('/team-color/:team', (req, res) => {
     }
     });
 
-    app.get('/team-logo/:team', (req, res) => {
-        const { team } = req.params;
-    
-        if (TEAM_LOGOS.hasOwnProperty(team)) {
-            const filePath = TEAM_LOGOS[team];
-    
-            fs.readFile(filePath, 'utf8', (err, data) => {
-                if (err) {
-                    res.status(500).json({ error: 'Error reading SVG file' });
-                } else {
-                    res.send(data);
-                }
-            });
-        } else {
-            res.status(404).json({ error: 'Team logo not found' });
-        }
-    });
+app.get('/team-logo/:team', (req, res) => {
+    const { team } = req.params;
+
+    if (TEAM_LOGOS.hasOwnProperty(team)) {
+        const filePath = TEAM_LOGOS[team];
+
+        fs.readFile(filePath, 'utf8', (err, data) => {
+            if (err) {
+                console.error(`Error reading SVG file for team ${team}: ${err.message}`);
+                res.status(500).json({ error: 'Internal server error' });
+            } else {
+                // Set the appropriate content type for SVG
+                res.setHeader('Content-Type', 'image/svg+xml');
+                res.send(data);
+            }
+        });
+    } else {
+        res.status(404).json({ error: 'Team logo not found' });
+    }
+});
+
     
 
   
