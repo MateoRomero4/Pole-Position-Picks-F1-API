@@ -51,7 +51,7 @@ const TEAM_LOGOS = {
     'alpine-f1-team': './data/logos/alpine.svg',
     'aston-martin': './data/logos/aston-martin.svg',
     'ferrari': './data/logos/ferrari.svg',
-    'haas': './data/logos/haas-f1-team.svg',
+    'haas-f1-team': './data/logos/haas-f1-team.svg',
     'mclaren': './data/logos/mclaren.svg',
     'mercedes': './data/logos/mercedes.svg',
     'red-bull': './data/logos/red-bull.svg',
